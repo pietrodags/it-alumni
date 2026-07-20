@@ -1,9 +1,9 @@
 import { describe, it, expect } from "vitest"
 import { searchAlumni } from "./alumni-search.js"
 
-describe("Feature: Cerca i exploració de membres - EP3", () => {
+describe("Feature: Busqueda y exploración de miembros", () => {
 
-    it('Scenario: cercar membres per nom — quan introdueixo "Anna", veig una llista de membres que hi coincideixen', () => {
+    it('Scenario: buscar miembro por el nombre - cuando introduzco "Anna", veo una lista de nombres que coinciden', () => {
         
         const alumni = [
             { name: "Anna Puig", role: "Dissenyadora UX/UI", company: "Studio Nova", location: "Barcelona" },
