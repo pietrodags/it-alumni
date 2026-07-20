@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A web and mobile platform for Barcelona Activa IT Academy alumni to connect, share experiences, build professional networks, and discover digital job opportunities.">
+    <title>ITAlumni</title>
+    <link rel="icon" type="image/png" href="src/assets/icons/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <section class="welcome-mobile only-mobile" aria-label="Benvinguda">
+        <div class="welcome-content">
+            <img class="welcome-logo" src="src/assets/icons/logo-color.svg" alt="ITAlumni logo">
+            <p class="welcome-tagline">Connectant i empoderant a la nostra comunitat global d'alumnes</p>
+        </div>
+        <a href="register.html" class="welcome-btn" aria-label="Uneix-te">Uneix-te</a>
+    </section>
+
+    <div class="only-desktop">
+        <header class="site-header">
+            <div class="header-left">
+                <a href="/" class="logo" aria-label="Vés a la pàgina d'inici">
+                <img src="src/assets/icons/logo-color.svg" href="index.html" alt="ITAlumni logo">
+                </a>
+
+                <nav aria-label="Navegació principal">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="active">Inici</a></li>
+                        <li><a href="network.html">Xarxa</a></li>                
+                        <li><a href="jobs.html">Oportunitats de feina</a></li>                  
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="header-right">
+                <ul class="login-group" aria-label="Inici de sessió i registre">
+                    <li><a href="register.html" class="btn btn-primary" aria-label="Registre">
+                        <svg class="svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
+                        </svg>                   
+                        Apunta't</a></li>
+                    <li><a href="/login" class="btn btn-secondary" aria-label="Inici de sessió">
+                        <svg class="svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                        </svg>
+                        Com et veuen?</a></li>
+                </ul>
+            </div>        
+        </header>
+
+        <main class="container" aria-label="Pàgina d'inici">
+            <section class="hero">
+                <h1 class="hero-title">Benvingut, Alumni</h1>
+                <p class="hero-mission">Connectant i empoderant a la nostra counitat global d'alumnes</p>
+
+                <div>
+                    <ul class="hero-login" aria-label="Inici de sessió i registre">
+                        <li><a href="register.html" class="btn-main btn-main-primary" aria-label="Registre">Uneix-te</a></li>
+                        <li><a href="/login" class="btn-main btn-main-secondary" aria-label="Inici de sessió">Mira que fem</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="introduction" aria-label="Vídeo d'introducció">
+                <iframe class="video" src="https://www.youtube.com/embed/z_tHdHqCBxw?si=iGslHN7R7l8-vkbk"></iframe>
+            </section>
+
+            <section class="benefits">
+                <h2 class="benefits-title">Què guanyes en formar-ne part?</h2>
+    
+                <div class="benefits-cards">
+                    <div>
+                        <svg class="benefits-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="url(#benefits-grad)" class="size-6">
+                            <defs>
+                                <linearGradient id="benefits-grad" x1="0" y1="1" x2="1" y2="0">
+                                    <stop offset="0%" stop-color="#873AAA"/>
+                                    <stop offset="100%" stop-color="#DF007F"/>
+                                </linearGradient>
+                            </defs>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                        </svg>
+
+                        <p class="benefits-test">i no perdis el contacte: Puja els teus moments importants, explica com va tot i queda amb els companys. Una xarxa per estar més a prop.</p>
+                        
+                        <a href="register.html" class="btn-main btn-main-benefits">apunta't ja</a>
+                    </div>
+                    <div>
+                        <svg class="benefits-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="url(#benefits-grad)" class="size-6">
+                            <defs>
+                                <linearGradient id="benefits-grad" x1="0" y1="1" x2="1" y2="0">
+                                    <stop offset="0%" stop-color="#873AAA"/>
+                                    <stop offset="100%" stop-color="#DF007F"/>
+                                </linearGradient>
+                            </defs>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+                        </svg>
+
+                        <p class="benefits-test">Participa en discussions: Intercanvia coneixements, punts de vista i opinions sobre temes que t'interessen.</p>
+
+                        <a href="register.html" class="btn-main btn-main-benefits">apunta't ja</a>
+                    </div>
+                    <div>
+                        <svg class="benefits-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="url(#benefits-grad)" class="size-6">
+                            <defs>
+                                <linearGradient id="benefits-grad" x1="0" y1="1" x2="1" y2="0">
+                                    <stop offset="0%" stop-color="#873AAA"/>
+                                    <stop offset="100%" stop-color="#DF007F"/>
+                                </linearGradient>
+                            </defs>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0ZM3 19.235v-.11a6.375 6.375 0 0 1 12.75 0v.109A12.318 12.318 0 0 1 9.374 21c-2.331 0-4.512-.645-6.374-1.766Z" />
+                        </svg>
+
+                        <p class="benefits-test">Xarxa Alumni: Connecta amb companys de promoció, fes noves amistats i crea records per durar tota la vida.</p>
+
+                        <a href="register.html" class="btn-main btn-main-benefits">apunta't ja</a>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="testimonials">
+                <h2 class="testimonials-title">"T'ensenyem el que opinen els nostres súper-usuaris!"</h2>
+
+                <div class="testimonials-cards">
+
+                    <article class="testimonial-card">
+                        <div class="testimonial-head">
+                            <img class="testimonial-avatar" src="src/assets/img/testimonial1.png">
+                            <div>
+                                <p class="testimonial-name">Mikel</p>
+                                <p class="testimonial-stars" aria-label="Valoració: 5 de 5 estrelles">★★★★★</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Gràcies a IT Alumni vaig aconseguir la feina dels meus somnis en el món tech amb el seu increïble programa de mentoria."</p>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="testimonial-head">
+                            <img class="testimonial-avatar" src="src/assets/img/testimonial2.png">
+                            <div>
+                                <p class="testimonial-name">Emma</p>
+                                <p class="testimonial-stars" aria-label="Valoració: 5 de 5 estrelles">★★★★★</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"La meva xarxa d'aquesta comunitat ha estat clau: va revolucionar la meva carrera i em va mostrar camins insospitats."</p>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="testimonial-head">
+                            <img class="testimonial-avatar" src="src/assets/img/testimonial3.png">
+                            <div>
+                                <p class="testimonial-name">Laia</p>
+                                <p class="testimonial-stars" aria-label="Valoració: 5 de 5 estrelles">★★★★★</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"IT Alumni em va donar les eines i l'autoestima per fer realitat el meu somni d'emprendre."</p>
+                    </article>
+
+                </div>
+
+                <div class="testimonials-nav">
+                    <button class="testimonials-arrow" aria-label="Testimoni anterior">‹</button>
+                    <button class="testimonials-arrow" aria-label="Testimoni següent">›</button>
+                </div>
+            </section>
+
+
+        </main>
+
+        <footer class="site-footer">
+
+            <div class="footer-newsletter">
+                <h2 class="footer-newsletter-title">"No et perdis res, subscriu-te!"</h2>
+
+                <form class="footer-form">
+                    <span class="footer-input-wrap">
+                        <svg class="footer-input-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                        </svg>
+                        <input type="email" class="footer-input" placeholder="El teu email" aria-label="El teu email">
+                    </span>
+                    <button type="submit" class="footer-subscribe">Subscriu-te</button>
+                </form>
+            </div>
+
+            <div class="footer-main">
+                <a href="/" class="footer-logo" aria-label="Inici">
+                    <img src="src/assets/icons/logo-white.svg" alt="ITAlumni logo">
+                </a>
+
+                <nav aria-label="Navegació del peu">
+                    <ul class="footer-links">
+                        <li><a href="">Sobre nosaltres</a></li>
+                        <li><a href="">Funcionalitats</a></li>
+                        <li><a href="">Centre d'ajuda</a></li>
+                        <li><a href="">Contacta'ns</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Oportunitats laborals</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="footer-bottom">
+                <select class="footer-lang" aria-label="Selecciona l'idioma">
+                    <option>Català</option>
+                    <option>Español</option>
+                    <option>English</option>
+                </select>
+
+                <ul class="footer-legal">
+                    <p>© 2024 Brand, Inc.</p>
+                    <li><a href="">Privadesa</a></li>
+                    <li><a href="">Termes d'ús</a></li>
+                    <li><a href="">Mapa del lloc</a></li>
+                </ul>    
+                
+                <ul class="footer-social">
+                    <li><a href="" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12Z"/></svg>
+                    </a></li>
+                    <li><a href="" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13Zm1.78 13.02H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0Z"/></svg>
+                    </a></li>
+                    <li><a href="" aria-label="YouTube">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M23.5 6.2a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.51A3.02 3.02 0 0 0 .5 6.2 31.7 31.7 0 0 0 0 12a31.7 31.7 0 0 0 .5 5.8 3.02 3.02 0 0 0 2.12 2.14c1.88.51 9.38.51 9.38.51s7.5 0 9.38-.51a3.02 3.02 0 0 0 2.12-2.14A31.7 31.7 0 0 0 24 12a31.7 31.7 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.2 3.6-6.2 3.6Z"/></svg>
+                    </a></li>
+                </ul>
+            </div>
+
+        </footer>
+    </div>
+
+</body>
+</html>

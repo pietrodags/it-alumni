@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1078 206.8" style="enable-background:new 0 0 1078 206.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#873AAA;}
+	.st2{fill:url(#SVGID_00000051355758352047577680000014152085443339569317_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="151.1442" x2="191" y2="151.1442" gradientTransform="matrix(1 0 0 -1 0 250)">
+	<stop  offset="0" style="stop-color:#873AAA"/>
+	<stop  offset="1" style="stop-color:#DF007F"/>
+</linearGradient>
+<path class="st0" d="M2,2.5L0,4.2v2.5v1.7l16,23.3l17,23.3l15,22.4l16,21.6l-1,1.7l-2,1.7l-23,32.4L16,167l-8,11.6l-8,10.8v2.5v2.5
+	l2,1.7l1,1.7h12h13l3-2.5l3-1.7l14-19.9l14-20.8l10-13.3l10-14.1l5,5.8l4,5.8l1,0.8l2,0.8h2h2l2-1.7l2-2.5l3-4.2l3-5l1,0.8h1
+	l23,33.2l23,32.4l3,3.3l4,2.5h12h13l1-1.7l2-1.7v-2.5v-2.5l-32-44.9l-31-44v-1.7V98l31-44.9l32-44.9V6.6V4.2l-2-2.5L186,0h-10h-10
+	l-4,1.7l-3,0.8l-3,3.3l-3,3.3l-22,32.4l-22,31.6l-5-6.6l-5-6.6h-3h-3l-2,0.8l-1,0.8l-4,5.8l-3,5h-1l0,0L58,39L35,5.8l-3-2.5l-3-2.5
+	h-3L23,0H13H4L2,2.5"/>
+<path class="st1" d="M91,144.5l-2,0.8l-2,1.7l-2,0.8l-14,20.8l-15,20.8l-2,3.3l-2,3.3v2.5v2.5l2,2.5l3,2.5l35,0.8h36h2l2-0.8l1-3.3
+	l2-2.5v-3.3l-1-3.3l-17-24.1l-16-23.3l-3-1.7l-3-0.8h-1h-1L91,144.5"/>
+<linearGradient id="SVGID_00000018921384519537178850000006643389154164444049_" gradientUnits="userSpaceOnUse" x1="239" y1="122" x2="1078" y2="122" gradientTransform="matrix(1 0 0 -1 0 250)">
+	<stop  offset="0" style="stop-color:#873AAA"/>
+	<stop  offset="1" style="stop-color:#DF007F"/>
+</linearGradient>
+<path style="fill:url(#SVGID_00000018921384519537178850000006643389154164444049_);" d="M239,60v1v68l1,67l37,1h38v-14v-15h-22h-23
+	v-55V59h-15h-15L239,60 M424,60v1v60l1,59l14,9l14,8h24l24-1v-14v-14h-23h-23v-54V59h-15h-15L424,60 M558,113v55h-23h-23v14v15h24
+	h24l14-8l14-8v-61V59h-15h-15V113 M630,60v1v68l1,67l15,1h15v-49V99l15,14l15,14l8,8l8,7v-18v-19l-25-23l-24-23h-14h-13L630,60
+	 M752,74l-16,15l-9,9l-9,8v18l1,18l22-22l23-21v49l1,48h15h15v-68V59h-14h-13L752,74 M841,60v1v68l1,67h15h15v-49l1-49l3,3l3,3
+	l19,19l20,19v-18v-19l-25-23l-24-23h-14h-13L841,60 M975,60v1v48v48l-23-21l-22-21h-1h-1v17v17l25,24l24,23h14h15v-68V59h-15h-15
+	L975,60 M1048,128v69h15h15v-69V59h-15h-15V128 M327,182v15h38l39-1v-14v-14h-39h-38V182"/>
+</svg>

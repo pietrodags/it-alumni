@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Crea el teu compte a ITAlumni i uneix-te a la comunitat d'exalumnes de la IT Academy.">
+    <title>ITAlumni</title>
+    <link rel="icon" type="image/png" href="src/assets/icons/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body class="register-page">
+
+    <main class="register-card" aria-label="Formulari de registre">
+        <h1 class="register-title">Crea un compte</h1>
+        <p class="register-subtitle">Uneix-te a nosaltres per connectar-te i compartir oportunitats!</p>
+
+        <form class="register-form">
+            <div class="register-field">
+                <svg class="register-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                </svg>
+                <input type="text" id="first-name" name="first-name" placeholder="Posa el teu nom" aria-label="Nom">
+            </div>
+
+            <div class="register-field">
+                <svg class="register-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                </svg>
+                <input type="text" id="last-name" name="last-name" placeholder="Posa el teu cognom" aria-label="Cognom">
+            </div>
+
+            <div class="register-field">
+                <svg class="register-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                </svg>
+                <input type="email" id="email" name="email" placeholder="El teu correu electrònic" aria-label="Correu electrònic">
+            </div>
+
+            <div class="register-field">
+                <svg class="register-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                </svg>
+                <input type="password" id="password" name="password" placeholder="Crea una contrasenya" aria-label="Contrasenya">
+            </div>
+
+            <label class="register-terms">
+                <input type="checkbox" name="terms" required>
+                Accepto els Termes i Condicions
+            </label>
+
+            <button type="submit" class="register-submit">Registra't</button>
+        </form>
+
+        <div class="register-divider">O</div>
+
+        <div class="register-social">
+            <a href="#" class="social-btn social-apple">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M16.37 12.63c-.02-2.02 1.65-2.99 1.72-3.04-.94-1.37-2.4-1.56-2.92-1.58-1.24-.13-2.42.73-3.05.73-.63 0-1.6-.71-2.63-.69-1.35.02-2.6.79-3.3 2-1.4 2.44-.36 6.05 1.01 8.03.67.97 1.47 2.06 2.51 2.02 1.01-.04 1.39-.65 2.61-.65 1.22 0 1.56.65 2.63.63 1.09-.02 1.78-.99 2.44-1.96.77-1.12 1.09-2.21 1.11-2.27-.02-.01-2.13-.82-2.15-3.25M14.4 6.68c.56-.68.94-1.62.83-2.56-.81.03-1.79.54-2.37 1.21-.52.6-.97 1.56-.85 2.48.9.07 1.83-.46 2.39-1.13"/></svg>
+                Continua amb Apple
+            </a>
+            <a href="#" class="social-btn social-google">
+                <svg viewBox="0 0 640 640" fill="currentColor" width="20" height="20"><path d="M564 325.8C564 467.3 467.1 568 324 568C186.8 568 76 457.2 76 320C76 182.8 186.8 72 324 72C390.8 72 447 96.5 490.3 136.9L422.8 201.8C334.5 116.6 170.3 180.6 170.3 320C170.3 406.5 239.4 476.6 324 476.6C422.2 476.6 459 406.2 464.8 369.7L324 369.7L324 284.4L560.1 284.4C562.4 297.1 564 309.3 564 325.8z"/></svg>
+                Continua amb Google
+            </a>
+            <a href="#" class="social-btn social-facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12Z"/></svg>
+                Continua amb Facebook
+            </a>
+        </div>
+
+        <p class="register-login">Ja t'has registrat? <a href="index.html">Inicia sessió</a></p>
+    </main>
+
+</body>
+</html>

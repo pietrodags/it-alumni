@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="main-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#873AAA" />
+      <stop offset="100%" stop-color="#DF007F" />
+    </linearGradient>
+    
+    <mask id="text-mask">
+      <rect x="0" y="0" width="320" height="100" fill="white" />
+      <rect x="0" y="60" width="320" height="3" fill="black" />
+    </mask>
+  </defs>
+
+  <g id="symbol" fill="url(#main-gradient)">
+    <polygon points="10,15 26,15 66,85 50,85" />
+    <polygon points="50,15 66,15 26,85 10,85" />
+    <polygon points="30,85 46,85 38,62" />
+  </g>
+
+  <g id="text" fill="url(#main-gradient)" mask="url(#text-mask)">
+    <path d="M 85 25 H 97 V 63 H 125 V 75 H 85 Z" />
+    <path d="M 135 25 H 147 V 63 H 163 V 25 H 175 V 75 H 135 Z" />
+    <path d="M 185 75 V 25 H 197 L 210 45 L 223 25 H 235 V 75 H 223 V 40 L 210 60 L 197 40 V 75 Z" />
+    <path d="M 245 75 V 25 H 257 L 273 53 V 25 H 285 V 75 H 273 L 257 47 V 75 Z" />
+    <path d="M 295 25 H 307 V 75 H 295 Z" />
+  </g>
+</svg>
