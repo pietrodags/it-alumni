@@ -1,6 +1,6 @@
 "use strict"
 
-import { searchAlumni, sortAlumni } from "./alumni-search.js"
+import { getFilter, searchAlumni, getProperty, sortAlumni } from "./alumni-search.js"
 
 
 const alumni = [
@@ -45,9 +45,24 @@ function showAlumni(list) {
     resultList.innerHTML = alumniList
 }
 
+
+// function getResult() {
+//     const found = searchAlumni(alumni, searchInput.value)
+//     const result = sortAlumni(found, activeFilter)
+
+//     showAlumni(result)
+// }
+
+
 function getResult() {
+
+    const ActualFilterState = getFilter(activeFilter)
+    
     const found = searchAlumni(alumni, searchInput.value)
-    const result = sortAlumni(found, activeFilter)
+
+    const propertyName = getProperty(activeFilter)
+
+    const result = sortAlumni(found, ActualFilterState, propertyName)
 
     showAlumni(result)
 }

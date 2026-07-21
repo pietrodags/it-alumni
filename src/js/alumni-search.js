@@ -14,20 +14,59 @@ export function searchAlumni(list, query) {
     )
 }
 
-export function sortAlumni(list, filter) {
-    const sorted = [...list]
+
+// export function sortAlumni(list, filter) {
+//     const sorted = [...list]
+
+//     if (filter === "recent") {
+//         sorted.sort((a, b) => a.lastActivity - b.lastActivity)
+//     }
+
+//     if (filter === "popular") {
+//         sorted.sort((a, b) => b.profileViews - a.profileViews)
+//     }
+
+//     if (filter === "connections") {
+//         sorted.sort((a, b) => b.connections - a.connections)
+//     }
+
+//     return sorted
+// }
+
+
+export function getFilter(filter) {  
+    let filterState = true
 
     if (filter === "recent") {
-        sorted.sort((a, b) => a.lastActivity - b.lastActivity)
+        filterState = false
     }
 
+    return filterState
+}
+
+
+export function getProperty(filter) {
+    let property = "lastActivity"
+
     if (filter === "popular") {
-        sorted.sort((a, b) => b.profileViews - a.profileViews)
+        property = "profileViews"
     }
 
     if (filter === "connections") {
-        sorted.sort((a, b) => b.connections - a.connections)
+        property = "connections"
     }
 
+    return property
+}
+
+export function sortAlumni(list, filter, property) {
+    const sorted = [...list]
+
+    if (!filter) {
+        sorted.sort((a, b) => a[property] - b[property])
+    } else {
+        sorted.sort((a, b) => b[property] - a[property])
+    }
+    
     return sorted
 }
